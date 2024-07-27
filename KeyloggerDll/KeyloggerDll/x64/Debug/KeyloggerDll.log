@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+c:\users\ise\source\repos\keyloggerdll\keyloggerdll\dllmain.cpp(180): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+     Creating library C:\Users\ISE\source\repos\KeyloggerDll\x64\Debug\KeyloggerDll.lib and object C:\Users\ISE\source\repos\KeyloggerDll\x64\Debug\KeyloggerDll.exp
+  KeyloggerDll.vcxproj -> C:\Users\ISE\source\repos\KeyloggerDll\x64\Debug\KeyloggerDll.dll
