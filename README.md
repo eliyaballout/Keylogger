@@ -39,8 +39,8 @@ The techniques demonstrated by this project are powerful and can be misused if a
 3. **Logging:** Logs keystrokes with timestamps and saves them to a buffer. When a USB drive is inserted, the keystrokes are written to a file and saved in an encrypted format on the USB drive.
 
 4. **Command-Line Interface:** Provides commands to start, stop, and manage the keylogger.
-
-**The keystrokes are saved into a buffer, and only when a USB drive is inserted are the keystrokes written to a file and saved in an encrypted format using XOR encryptiion on the USB drive.**
+<br>
+**The keystrokes are saved into a buffer, and only when a USB drive is inserted, the keystrokes are written to a file and saved in an encrypted format using XOR encryption on the USB drive.**
 <br><br>
 
 
@@ -52,7 +52,7 @@ The techniques demonstrated by this project are powerful and can be misused if a
 
 2. **KeyloggerDll:** it has a cpp file called [dllmain.cpp](https://github.com/eliyaballout/Keylogger/blob/main/KeyloggerDll/KeyloggerDll/dllmain.cpp), this is a DLL file, containing the hook procedure for capturing keystrokes, checking for USB and the encryption method.
 
-3. **Decrypt:** it has a cpp file called [Decrypt..cpp](https://github.com/eliyaballout/Keylogger/blob/main/Decrypt/Decrypt/Decrypt.cpp), this code is a program for decrypting the logged keystrokes.
+3. **Decrypt:** it has a cpp file called [Decrypt.cpp](https://github.com/eliyaballout/Keylogger/blob/main/Decrypt/Decrypt/Decrypt.cpp), this code is a program for decrypting the logged keystrokes.
 
 <br><br>
 
@@ -74,7 +74,7 @@ The techniques demonstrated by this project are powerful and can be misused if a
 **Installation:**
 1. Download and extract the [ZIP file](https://github.com/eliyaballout/Keylogger/archive/refs/heads/main.zip).<br>
 
-2. Navigate to **MiniKeylogger --> x64 --> Debug**, you will find the `MiniKeylogger.exe` executable file, this is the executable that you need to run in order to inject the DLL file.<br>
+2. Navigate to **MiniKeylogger --> x64 --> Debug**, you will find the `MiniKeylogger.exe` executable file, this is the executable that you need to run in order to start/stop the keylogger.<br>
 
 3. Navigate to **Decrypt --> x64 --> Debug**, you will find the `Decrypt.exe` executable file, this is the executable that you need to run in order to decrypt the output file that contains the keystrokes after you have been inserted the USB. <br><br>
 
