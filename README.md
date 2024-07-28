@@ -61,8 +61,10 @@ The techniques demonstrated by this project are powerful and can be misused if a
 **I will explain here the requirements, installation and the usage of this keylogger:** <br>
 
 **Requirements:**
-1. Ensure you have a C++ compiler and Windows SDK installed. <br>
+1. Ensure you have a C++ compiler and Windows SDK installed. <br><br>
+
 2. You need to modify the dll path to `YOUR_KeyloggerDLL.dll`. in the cpp file [MiniKeylogger.cpp](https://github.com/eliyaballout/Keylogger/blob/main/MiniKeylogger/MiniKeylogger/MiniKeylogger.cpp), in line **52** `hDll = LoadLibraryA("PATH_TO_KeyloggerDLL.dll");`, you need to change the `PATH_TO_KeyloggerDLL.dll` to the path where you actually stores the `KeyloggerDLL.dll` dll file, for example: `"C:\\Users\\user\\source\\repos\\KeyloggerDll\\x64\\Debug\\PATH_TO_KeyloggerDLL.dll"`. Make sure to put the **absolute** path for the DLL.
+
 3. Compile the `.cpp` file to generate the executable. <br><br>
 
 
