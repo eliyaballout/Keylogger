@@ -70,7 +70,9 @@ The techniques demonstrated by this project are powerful and can be misused if a
 
 **Installation:**
 1. Download and extract the [ZIP file](https://github.com/eliyaballout/Keylogger/archive/refs/heads/main.zip).<br>
+
 2. Navigate to **MiniKeylogger --> x64 --> Debug**, you will find the `MiniKeylogger.exe` executable file, this is the executable that you need to run in order to inject the DLL file.<br>
+
 3. Navigate to **Decrypt --> x64 --> Debug**, you will find the `Decrypt.exe` executable file, this is the executable that you need to run in order to decrypt the output file that contains the keystrokes after you have been inserted the USB. <br><br>
 
 
