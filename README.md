@@ -33,8 +33,11 @@ The techniques demonstrated by this project are powerful and can be misused if a
 ## Key Components
 
 1. **Global Keyboard Hook:** Uses `SetWindowsHookEx` to install a global keyboard hook to capture keystrokes.
+
 2. **DLL Injection:** Injects the DLL containing the hook into all running processes.
+
 3. **Logging:** Logs keystrokes with timestamps and saves them to a buffer. When a USB drive is inserted, the keystrokes are written to a file and saved in an encrypted format on the USB drive.
+
 4. **Command-Line Interface:** Provides commands to start, stop, and manage the keylogger.
 
 **The keystrokes are saved into a buffer, and only when a USB drive is inserted are the keystrokes written to a file and saved in an encrypted format using XOR encryptiion on the USB drive.**
@@ -85,14 +88,14 @@ The techniques demonstrated by this project are powerful and can be misused if a
 ```
 MiniKelogger.exe start
 ```
-<br><br>
+<br>
 
 **Stopping the MiniKelogger:** <br>
 **Make sure to run this command in a separated cmd window with administrator privileges.**
 ```
 MiniKelogger.exe stop
 ```
-<br><br>
+<br>
 
 **Running the Decryptor:**
 ```
