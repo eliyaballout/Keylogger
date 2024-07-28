@@ -38,7 +38,9 @@ The techniques demonstrated by this project are powerful and can be misused if a
 
 3. **Logging:** Logs keystrokes with timestamps and saves them to a buffer. When a USB drive is inserted, the keystrokes are written to a file and saved in an encrypted format on the USB drive.
 
-4. **Command-Line Interface:** Provides commands to start, stop, and manage the keylogger. <br>
+4. **Command-Line Interface:** Provides commands to start, stop, and manage the keylogger.
+
+<br>
 
 **The keystrokes are saved into a buffer, and only when a USB drive is inserted, the keystrokes are written to a file and saved in an encrypted format using XOR encryption on the USB drive.**
 <br><br>
