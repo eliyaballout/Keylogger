@@ -5,7 +5,7 @@
 ## Introduction
 
 Welcome to Keylogger project, this program is written in C/C++. <br>
-Keylogger is a Windows-based keylogging application developed as part of an educational purposes. It captures keystrokes globally across all user sessions and logs them to a file. The project consists of a dynamic link library (DLL) that installs a global keyboard hook and a main application that handles the DLL injection, logging, and managing the captured keystrokess. <br><br>
+Keylogger is a Windows-based keylogging application developed as part of an educational purposes project. It captures keystrokes globally across all user sessions and logs them to a file. The project consists of a dynamic link library (DLL) that installs a global keyboard hook and a main application that handles the DLL injection, logging, and managing the captured keystrokes. <br><br>
 
 
 **Warning**
