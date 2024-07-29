@@ -15,13 +15,13 @@ The techniques demonstrated by this project are powerful and can be misused if a
 
 **Important Note: Before you proceed, it's crucial to understand and acknowledge the following:**
 
-1. ***Purpose of the Script:*** This script is developed strictly for educational purposes. It aims to demonstrate the vulnerabilities present in wireless networks and how they can be exploited. By understanding these vulnerabilities, users can take proactive measures to enhance the security of their networks.
+1. ***Purpose of the Program:*** This script is developed strictly for educational purposes. It aims to demonstrate the vulnerabilities present in Windows OS architecture and how they can be exploited. By understanding these vulnerabilities, users can take proactive measures to enhance the security of their computers.
    
-2. ***Legal Implications:*** Unauthorized access or disruption of computer networks, including wireless networks, is illegal in many jurisdictions. ***This script should only be used on networks that you own or have explicit permission to test***. Do not use this script against networks that you do not own or do not have authorization to test. Any misuse of this script is entirely the responsibility of the user.
+2. ***Legal Implications:*** Unauthorized access or disruption of computer OS, is illegal in many jurisdictions. ***This Program should only be used on computers that you own or have explicit permission to test***. Do not use this Program against computers that you do not own or do not have authorization to test. Any misuse of this Program is entirely the responsibility of the user.
 
-3. ***Ethical Considerations:*** It is essential to use this script responsibly and ethically. Always respect the privacy and rights of others. Avoid causing harm or disruption to network users. The primary goal is to learn and understand network security, not to cause harm or engage in malicious activities.
+3. ***Ethical Considerations:*** It is essential to use this program responsibly and ethically. Always respect the privacy and rights of others. The primary goal is to learn and understand Windows OS architecture, not to cause harm or engage in malicious activities.
 
-4. ***Disclaimer:*** I do not endorse or encourage any illegal or malicious activities. The script is provided as-is, without any warranties or guarantees. Users are solely responsible for their actions and should use this script responsibly. <br><br>
+4. ***Disclaimer:*** I do not endorse or encourage any illegal or malicious activities. The program is provided as-is, without any warranties or guarantees. Users are solely responsible for their actions and should use this program responsibly. <br><br>
 
 
 **By accessing and using this script, you acknowledge and agree to the terms and guidelines mentioned above. Always prioritize ethical considerations, safety, and legal compliance.**
