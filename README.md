@@ -50,7 +50,7 @@ The techniques demonstrated by this project are powerful and can be misused if a
 
 ## Features
 
-1. **MiniKeyloggerr:** it has a cpp file called [MiniKeylogger.cpp](https://github.com/eliyaballout/Keylogger/blob/main/MiniKeylogger/MiniKeylogger/MiniKeylogger.cpp), main application for starting and stopping the keylogger.
+1. **MiniKeylogger:** it has a cpp file called [MiniKeylogger.cpp](https://github.com/eliyaballout/Keylogger/blob/main/MiniKeylogger/MiniKeylogger/MiniKeylogger.cpp), main application for starting and stopping the keylogger.
 
 2. **KeyloggerDll:** it has a cpp file called [dllmain.cpp](https://github.com/eliyaballout/Keylogger/blob/main/KeyloggerDll/KeyloggerDll/dllmain.cpp), this is a DLL file, containing the hook procedure for capturing keystrokes, checking for USB and the encryption method.
 
