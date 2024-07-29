@@ -113,7 +113,7 @@ And `<decrypted_output_file>` should be the full path where you want to save the
 
 ## Ethical Considerations
 
-This tool is intended for educational use only to demonstrate techniques commonly used by rootkits. It should be used in a controlled environment, such as a penetration testing lab, where explicit permission has been granted. Always practice responsible disclosure and use ethical hacking principles.<br><br>
+This tool is intended for educational use only to demonstrate techniques commonly used by a keylogger. It should be used in a controlled environment, such as a penetration testing lab, where explicit permission has been granted. Always practice responsible disclosure and use ethical hacking principles.<br><br>
 
 
 
