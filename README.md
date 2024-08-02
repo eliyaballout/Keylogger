@@ -32,6 +32,19 @@ The techniques demonstrated by this project are powerful and can be misused if a
 
 ## Key Components
 
+1. **MiniKeylogger:** it has a cpp file called [MiniKeylogger.cpp](https://github.com/eliyaballout/Keylogger/blob/main/MiniKeylogger/MiniKeylogger/MiniKeylogger.cpp), main application for starting and stopping the keylogger.
+
+2. **KeyloggerDll:** it has a cpp file called [dllmain.cpp](https://github.com/eliyaballout/Keylogger/blob/main/KeyloggerDll/KeyloggerDll/dllmain.cpp), this is a DLL file, containing the hook procedure for capturing keystrokes, checking for USB and the encryption method.
+
+3. **Decrypt:** it has a cpp file called [Decrypt.cpp](https://github.com/eliyaballout/Keylogger/blob/main/Decrypt/Decrypt/Decrypt.cpp), this code is a program for decrypting the logged keystrokes.
+
+<br><br>
+
+
+
+
+## Features
+
 1. **Global Keyboard Hook:** Uses `SetWindowsHookEx` to install a global keyboard hook to capture keystrokes.
 
 2. **DLL Injection:** Injects the DLL containing the hook into all running processes.
@@ -43,19 +56,6 @@ The techniques demonstrated by this project are powerful and can be misused if a
 <br>
 
 **The keystrokes are saved into a buffer, and only when a USB drive is inserted, the keystrokes are written to a file and saved in an encrypted format using XOR encryption on the USB drive.**
-<br><br>
-
-
-
-
-## Features
-
-1. **MiniKeylogger:** it has a cpp file called [MiniKeylogger.cpp](https://github.com/eliyaballout/Keylogger/blob/main/MiniKeylogger/MiniKeylogger/MiniKeylogger.cpp), main application for starting and stopping the keylogger.
-
-2. **KeyloggerDll:** it has a cpp file called [dllmain.cpp](https://github.com/eliyaballout/Keylogger/blob/main/KeyloggerDll/KeyloggerDll/dllmain.cpp), this is a DLL file, containing the hook procedure for capturing keystrokes, checking for USB and the encryption method.
-
-3. **Decrypt:** it has a cpp file called [Decrypt.cpp](https://github.com/eliyaballout/Keylogger/blob/main/Decrypt/Decrypt/Decrypt.cpp), this code is a program for decrypting the logged keystrokes.
-
 <br><br>
 
 
